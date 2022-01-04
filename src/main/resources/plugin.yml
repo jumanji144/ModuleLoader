@@ -1,0 +1,11 @@
+name: Moduleloader
+version: '${version}'
+main: me.darknet.moduleloader.ModuleLoader
+authors: [ Nowilltolife ]
+description: Load plugin features in modules
+commands:
+  module:
+    description: Manage modules
+    usage: /module <action> <module>
+    aliases: [ mod ]
+    permission: moduleloader.module
